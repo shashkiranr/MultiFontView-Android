@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="typeface_from_list">
+        <enum name="BLESSED.otf" value="0" />
+        <enum name="Respective.ttf" value="1" />
+        <enum name="Respective_Slanted.ttf" value="2" />
+        <enum name="Shine.ttf" value="3" />
+        <enum name="SweetSensations.ttf" value="4" />
+    </attr>
+    <declare-styleable name="MultiFontTextview">
+        <attr name="typeface_from_list" />
+    </declare-styleable>
+
+    <declare-styleable name="MultiFontButton">
+        <attr name="typeface_from_list" />
+    </declare-styleable>
+
+    <declare-styleable name="MultiFontEditText">
+        <attr name="typeface_from_list" />
+    </declare-styleable>
+</resources>

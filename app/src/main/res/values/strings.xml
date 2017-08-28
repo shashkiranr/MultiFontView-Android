@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MultiFontView</string>
+    <string name="name">Name</string>
+    <string name="click_button">Click Button</string>
+    <string name="hello_world">Hello World!</string>
+    <string-array name="customFonts">
+        <item>BLESSED.otf</item>
+        <item>Respective.ttf</item>
+        <item>Respective_Slanted.ttf</item>
+        <item>Shine.ttf</item>
+        <item>SweetSensations.ttf</item>
+    </string-array>
+</resources>

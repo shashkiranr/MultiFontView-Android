@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MultiFontView.iml" filepath="$PROJECT_DIR$/MultiFontView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/multifontbutton/multifontbutton.iml" filepath="$PROJECT_DIR$/multifontbutton/multifontbutton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/multifontedittext/multifontedittext.iml" filepath="$PROJECT_DIR$/multifontedittext/multifontedittext.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mutifonttextview/mutifonttextview.iml" filepath="$PROJECT_DIR$/mutifonttextview/mutifonttextview.iml" />
+    </modules>
+  </component>
+</project>
