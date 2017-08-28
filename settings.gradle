@@ -1,1 +1,1 @@
-include ':app', ':mutifonttextview', ':multifontbutton', ':multifontedittext'
+include ':app', ':multifonttextview', ':multifontbutton', ':multifontedittext'

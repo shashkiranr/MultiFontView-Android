@@ -11,7 +11,7 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/multifontbutton" />
             <option value="$PROJECT_DIR$/multifontedittext" />
-            <option value="$PROJECT_DIR$/mutifonttextview" />
+            <option value="$PROJECT_DIR$/multifonttextview" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
