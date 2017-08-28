@@ -30,4 +30,5 @@ dependencies {
     compile project(':multifonttextview')
     compile project(':multifontbutton')
     compile project(':multifontedittext')
+
 }
