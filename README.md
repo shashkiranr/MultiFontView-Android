@@ -53,7 +53,7 @@ To Use MultiFont EditText, add the below dependency
  
 #### *STEP 3 - create an attrs.xml file (if already present then add) a declare-stylable and attribute name typeface_from_list which contains the custom fonts in form of enums -  as shown below*
 
-For `MultiFontTextview` 
+For `MultiFontTextview` the declare-styleable should be named `MultiFontTextview` and attribute should be named `typeface_from_list`
 
 ```groovy
 <attr name="typeface_from_list">
@@ -68,7 +68,7 @@ For `MultiFontTextview`
     </declare-styleable>
 ```
 
-For `MultiFontButton` 
+For `MultiFontButton` the declare-styleable should be named `MultiFontButton` and attribute should be named `typeface_from_list`
 
 ```groovy
 <attr name="typeface_from_list">
@@ -83,7 +83,7 @@ For `MultiFontButton`
     </declare-styleable>
 ```
 
-For `MultiFontEditText` 
+For `MultiFontEditText` the declare-styleable should be named `MultiFontEditText` and attribute should be named `typeface_from_list`
 
 ```groovy
 <attr name="typeface_from_list">
@@ -120,7 +120,7 @@ If you are using `all the views` or `any two views` just one typeface_from_list 
     </declare-styleable>
 ```
 
-#### *STEP 4 - create a string array with name `customFonts` and declare all the name of the custom fonts with the extension name in the `same order` as `typeface_from_list` enum-  as shown below*
+#### *STEP 4 - create a string array with name `customFonts` and declare all the name of the custom fonts with file extension in the `same order` as `typeface_from_list` enum-  as shown below*
 
 ```groovy
     <string-array name="customFonts">
