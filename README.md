@@ -6,6 +6,14 @@
 
 **`MultiFontView`** library can be used to select custom fonts for the view dynamically in your XML. The library loads the custom fonts using a font cache. 
 
+**Views Available**
+
+`MultiFontTextView`
+`MultiFontEditText`
+`MultiFontButton`
+`MultiFontSwitch`
+`MultiFontRadioButton`
+`MultiFontCheckBox`
 
 ![](https://github.com/shashkiranr/MultiFontView-Android/blob/master/Screenshot.png?raw=true)
 
@@ -46,6 +54,29 @@ To Use MultiFont EditText, add the below dependency
 	       compile 'com.github.shashkiranr.MultiFontView-Android:multifontedittext:1.4'
 	}
 ```
+To Use MultiFont Switch, add the below dependency
+ 
+```groovy
+	dependencies {
+	       compile 'com.github.shashkiranr.MultiFontView-Android:multifontswitch:1.4'
+	}
+```
+
+To Use MultiFont CheckBox, add the below dependency
+ 
+```groovy
+	dependencies {
+	       compile 'com.github.shashkiranr.MultiFontView-Android:multifontcheckbox:1.4'
+	}
+```
+
+To Use MultiFont RadioButton, add the below dependency
+ 
+```groovy
+	dependencies {
+	       compile 'com.github.shashkiranr.MultiFontView-Android:multifontradiobutton:1.4'
+	}
+```
 
 #### *STEP 2 - copy the fonts to assets folder under fonts subfolder*
 
@@ -54,7 +85,7 @@ To Use MultiFont EditText, add the below dependency
  
 #### *STEP 3 - create an attrs.xml file (if already present then add) a declare-stylable and attribute name typeface_from_list which contains the custom fonts in form of enums -  as shown below*
 
-For `MultiFontTextview` the declare-styleable should be named `MultiFontTextview` and attribute should be named `typeface_from_list`
+For `MultiFontTextView` the declare-styleable should be named `MultiFontTextView` and attribute should be named `typeface_from_list`
 
 ```groovy
 <attr name="typeface_from_list">
@@ -64,7 +95,7 @@ For `MultiFontTextview` the declare-styleable should be named `MultiFontTextview
         <enum name="Shine.ttf" value="3" />
         <enum name="SweetSensations.ttf" value="4" />
     </attr>
-    <declare-styleable name="MultiFontTextview">
+    <declare-styleable name="MultiFontTextView">
         <attr name="typeface_from_list" />
     </declare-styleable>
 ```
@@ -99,6 +130,51 @@ For `MultiFontEditText` the declare-styleable should be named `MultiFontEditText
     </declare-styleable>
 ```
 
+For `MultiFontSwitch` the declare-styleable should be named `MultiFontSwitch` and attribute should be named `typeface_from_list`
+
+```groovy
+<attr name="typeface_from_list">
+        <enum name="BLESSED.otf" value="0" />
+        <enum name="Respective.ttf" value="1" />
+        <enum name="Respective_Slanted.ttf" value="2" />
+        <enum name="Shine.ttf" value="3" />
+        <enum name="SweetSensations.ttf" value="4" />
+    </attr>
+    <declare-styleable name="MultiFontSwitch">
+        <attr name="typeface_from_list" />
+    </declare-styleable>
+```
+
+For `MultiFontRadioButton` the declare-styleable should be named `MultiFontRadioButton` and attribute should be named `typeface_from_list`
+
+```groovy
+<attr name="typeface_from_list">
+        <enum name="BLESSED.otf" value="0" />
+        <enum name="Respective.ttf" value="1" />
+        <enum name="Respective_Slanted.ttf" value="2" />
+        <enum name="Shine.ttf" value="3" />
+        <enum name="SweetSensations.ttf" value="4" />
+    </attr>
+    <declare-styleable name="MultiFontRadioButton">
+        <attr name="typeface_from_list" />
+    </declare-styleable>
+```
+
+For `MultiFontCheckBox` the declare-styleable should be named `MultiFontCheckBox` and attribute should be named `typeface_from_list`
+
+```groovy
+<attr name="typeface_from_list">
+        <enum name="BLESSED.otf" value="0" />
+        <enum name="Respective.ttf" value="1" />
+        <enum name="Respective_Slanted.ttf" value="2" />
+        <enum name="Shine.ttf" value="3" />
+        <enum name="SweetSensations.ttf" value="4" />
+    </attr>
+    <declare-styleable name="MultiFontCheckBox">
+        <attr name="typeface_from_list" />
+    </declare-styleable>
+```
+
 If you are using `all the views` or `any two views` just one typeface_from_list is enough as shown below
 ```groovy
    <attr name="typeface_from_list">
@@ -108,7 +184,7 @@ If you are using `all the views` or `any two views` just one typeface_from_list 
         <enum name="Shine.ttf" value="3" />
         <enum name="SweetSensations.ttf" value="4" />
     </attr>
-    <declare-styleable name="MultiFontTextview">
+    <declare-styleable name="MultiFontTextView">
         <attr name="typeface_from_list" />
     </declare-styleable>
 
@@ -119,6 +195,19 @@ If you are using `all the views` or `any two views` just one typeface_from_list 
     <declare-styleable name="MultiFontEditText">
         <attr name="typeface_from_list" />
     </declare-styleable>
+    
+    <declare-styleable name="MultiFontSwitch">
+        <attr name="typeface_from_list" />
+    </declare-styleable>
+
+    <declare-styleable name="MultiFontRadioButton">
+        <attr name="typeface_from_list" />
+    </declare-styleable>
+
+    <declare-styleable name="MultiFontCheckBox">
+        <attr name="typeface_from_list" />
+    </declare-styleable>
+    
 ```
 
 #### *STEP 4 - create a string array with name `customFonts` and declare all the name of the custom fonts with file extension in the `same order` as `typeface_from_list` enum-  as shown below*
@@ -140,6 +229,12 @@ If you are using `all the views` or `any two views` just one typeface_from_list 
 ![](https://github.com/shashkiranr/MultiFontView-Android/blob/master/Screenshot%20MultiFontButton.png?raw=true)
 
 ![](https://github.com/shashkiranr/MultiFontView-Android/blob/master/Screenshot%20MultifontEditText.png?raw=true)
+
+![](https://github.com/shashkiranr/MultiFontView-Android/blob/master/Screenshot%20MultiFontSwitch.png?raw=true)
+
+![](https://github.com/shashkiranr/MultiFontView-Android/blob/master/Screenshot%20MultiFontRadioButton.png?raw=true)
+
+![](https://github.com/shashkiranr/MultiFontView-Android/blob/master/Screenshot%20MultiFontCheckBox.png?raw=true)
 
 ## ***Thats it !!***
 
