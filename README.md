@@ -35,7 +35,7 @@ To Use MultiFont Textview, add the below dependency
  
 ```groovy
 	dependencies {
-	        compile 'com.github.shashkiranr.MultiFontView-Android:multifonttextview:1.4'
+	        compile 'com.github.shashkiranr.MultiFontView-Android:multifonttextview:1.6'
 	}
 ```
 
@@ -43,7 +43,7 @@ To Use MultiFont Button, add the below dependency
  
 ```groovy
 	dependencies {
-	        compile 'com.github.shashkiranr.MultiFontView-Android:multifontbutton:1.4'
+	        compile 'com.github.shashkiranr.MultiFontView-Android:multifontbutton:1.6'
 	}
 ```
 
@@ -51,14 +51,14 @@ To Use MultiFont EditText, add the below dependency
  
 ```groovy
 	dependencies {
-	       compile 'com.github.shashkiranr.MultiFontView-Android:multifontedittext:1.4'
+	       compile 'com.github.shashkiranr.MultiFontView-Android:multifontedittext:1.6'
 	}
 ```
 To Use MultiFont Switch, add the below dependency
  
 ```groovy
 	dependencies {
-	       compile 'com.github.shashkiranr.MultiFontView-Android:multifontswitch:1.4'
+	       compile 'com.github.shashkiranr.MultiFontView-Android:multifontswitch:1.6'
 	}
 ```
 
@@ -66,7 +66,7 @@ To Use MultiFont CheckBox, add the below dependency
  
 ```groovy
 	dependencies {
-	       compile 'com.github.shashkiranr.MultiFontView-Android:multifontcheckbox:1.4'
+	       compile 'com.github.shashkiranr.MultiFontView-Android:multifontcheckbox:1.6'
 	}
 ```
 
@@ -74,7 +74,7 @@ To Use MultiFont RadioButton, add the below dependency
  
 ```groovy
 	dependencies {
-	       compile 'com.github.shashkiranr.MultiFontView-Android:multifontradiobutton:1.4'
+	       compile 'com.github.shashkiranr.MultiFontView-Android:multifontradiobutton:1.6'
 	}
 ```
 
