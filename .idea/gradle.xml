@@ -10,7 +10,10 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/multifontbutton" />
+            <option value="$PROJECT_DIR$/multifontcheckbox" />
             <option value="$PROJECT_DIR$/multifontedittext" />
+            <option value="$PROJECT_DIR$/multifontradiobutton" />
+            <option value="$PROJECT_DIR$/multifontswitch" />
             <option value="$PROJECT_DIR$/multifonttextview" />
           </set>
         </option>

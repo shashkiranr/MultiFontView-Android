@@ -8,7 +8,7 @@
         <enum name="Shine.ttf" value="3" />
         <enum name="SweetSensations.ttf" value="4" />
     </attr>
-    <declare-styleable name="MultiFontTextview">
+    <declare-styleable name="MultiFontTextView">
         <attr name="typeface_from_list" />
     </declare-styleable>
 
@@ -19,4 +19,17 @@
     <declare-styleable name="MultiFontEditText">
         <attr name="typeface_from_list" />
     </declare-styleable>
+
+    <declare-styleable name="MultiFontSwitch">
+        <attr name="typeface_from_list" />
+    </declare-styleable>
+
+    <declare-styleable name="MultiFontRadioButton">
+        <attr name="typeface_from_list" />
+    </declare-styleable>
+
+    <declare-styleable name="MultiFontCheckBox">
+        <attr name="typeface_from_list" />
+    </declare-styleable>
+
 </resources>

@@ -5,7 +5,10 @@
       <module fileurl="file://$PROJECT_DIR$/MultiFontView.iml" filepath="$PROJECT_DIR$/MultiFontView.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/multifontbutton/multifontbutton.iml" filepath="$PROJECT_DIR$/multifontbutton/multifontbutton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/multifontcheckbox/multifontcheckbox.iml" filepath="$PROJECT_DIR$/multifontcheckbox/multifontcheckbox.iml" />
       <module fileurl="file://$PROJECT_DIR$/multifontedittext/multifontedittext.iml" filepath="$PROJECT_DIR$/multifontedittext/multifontedittext.iml" />
+      <module fileurl="file://$PROJECT_DIR$/multifontradiobutton/multifontradiobutton.iml" filepath="$PROJECT_DIR$/multifontradiobutton/multifontradiobutton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/multifontswitch/multifontswitch.iml" filepath="$PROJECT_DIR$/multifontswitch/multifontswitch.iml" />
       <module fileurl="file://$PROJECT_DIR$/multifonttextview/multifonttextview.iml" filepath="$PROJECT_DIR$/multifonttextview/multifonttextview.iml" />
     </modules>
   </component>

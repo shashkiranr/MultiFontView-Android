@@ -4,7 +4,7 @@
     <attr name="typeface_from_list">
 
     </attr>
-    <declare-styleable name="MultifontTextview">
+    <declare-styleable name="MultiFontTextView">
         <attr name="typeface_from_list" />
     </declare-styleable>
 </resources>

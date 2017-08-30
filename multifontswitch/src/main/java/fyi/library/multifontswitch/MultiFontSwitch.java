@@ -1,26 +1,28 @@
-package fyi.library.mutifonttextview;
+package fyi.library.multifontswitch;
 
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.Typeface;
 import android.util.AttributeSet;
 import android.util.Log;
+import android.widget.Switch;
 
 
-public class MultiFontTextview extends android.support.v7.widget.AppCompatTextView {
 
-    private static final String LOG_TAG = "MultiFontTextview";
+public class MultiFontSwitch extends Switch {
 
-    public MultiFontTextview(Context context) {
+    private static final String LOG_TAG = "MultiFontSwitch";
+
+    public MultiFontSwitch(Context context) {
         super(context);
     }
 
-    public MultiFontTextview(Context context, AttributeSet attrs) {
+    public MultiFontSwitch(Context context, AttributeSet attrs) {
         super(context, attrs);
         initializeCustomTypeface(attrs, context);
     }
 
-    public MultiFontTextview(Context context, AttributeSet attrs, int defStyleAttr) {
+    public MultiFontSwitch(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         initializeCustomTypeface(attrs, context);
     }
@@ -29,11 +31,11 @@ public class MultiFontTextview extends android.support.v7.widget.AppCompatTextVi
         if (attrs != null) {
 
             TypedArray attributesArray = context.obtainStyledAttributes(attrs,
-                    R.styleable.MultifontTextview);
-            int fontID = attributesArray.getInt(R.styleable.MultifontTextview_typeface_from_list, -1);
+                    R.styleable.MultiFontSwitch);
+            int fontID = attributesArray.getInt(R.styleable.MultiFontSwitch_typeface_from_list, -1);
             String[] fontStringArray = context.getResources().getStringArray(R.array.customFonts);
 
-            //if a typeface is selected for the textview and if the font names are declared in the
+            //if a typeface is selected for the Switch and if the font names are declared in the
             // string array customFonts then load that typeface from cache
             if ((fontID != -1) && (fontStringArray.length != 0)) {
                 try {

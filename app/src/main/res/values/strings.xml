@@ -3,6 +3,9 @@
     <string name="name">Name</string>
     <string name="click_button">Click Button</string>
     <string name="hello_world">Hello World!</string>
+    <string name="switch_name">Switch</string>
+    <string name="radio_button">RadioButton</string>
+    <string name="checkbox_name">CheckBox</string>
     <string-array name="customFonts">
         <item>BLESSED.otf</item>
         <item>Respective.ttf</item>
