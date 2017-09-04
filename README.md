@@ -14,6 +14,7 @@
 `MultiFontSwitch`
 `MultiFontRadioButton`
 `MultiFontCheckBox`
+`MultiFontTextClock`
 
 ![](https://github.com/shashkiranr/MultiFontView-Android/blob/master/Screenshot.png?raw=true)
 
@@ -35,7 +36,7 @@ To Use MultiFont Textview, add the below dependency
  
 ```groovy
 	dependencies {
-	        compile 'com.github.shashkiranr.MultiFontView-Android:multifonttextview:1.6'
+	        compile 'com.github.shashkiranr.MultiFontView-Android:multifonttextview:1.7'
 	}
 ```
 
@@ -43,7 +44,7 @@ To Use MultiFont Button, add the below dependency
  
 ```groovy
 	dependencies {
-	        compile 'com.github.shashkiranr.MultiFontView-Android:multifontbutton:1.6'
+	        compile 'com.github.shashkiranr.MultiFontView-Android:multifontbutton:1.7'
 	}
 ```
 
@@ -51,14 +52,14 @@ To Use MultiFont EditText, add the below dependency
  
 ```groovy
 	dependencies {
-	       compile 'com.github.shashkiranr.MultiFontView-Android:multifontedittext:1.6'
+	       compile 'com.github.shashkiranr.MultiFontView-Android:multifontedittext:1.7'
 	}
 ```
 To Use MultiFont Switch, add the below dependency
  
 ```groovy
 	dependencies {
-	       compile 'com.github.shashkiranr.MultiFontView-Android:multifontswitch:1.6'
+	       compile 'com.github.shashkiranr.MultiFontView-Android:multifontswitch:1.7'
 	}
 ```
 
@@ -66,7 +67,7 @@ To Use MultiFont CheckBox, add the below dependency
  
 ```groovy
 	dependencies {
-	       compile 'com.github.shashkiranr.MultiFontView-Android:multifontcheckbox:1.6'
+	       compile 'com.github.shashkiranr.MultiFontView-Android:multifontcheckbox:1.7'
 	}
 ```
 
@@ -74,7 +75,15 @@ To Use MultiFont RadioButton, add the below dependency
  
 ```groovy
 	dependencies {
-	       compile 'com.github.shashkiranr.MultiFontView-Android:multifontradiobutton:1.6'
+	       compile 'com.github.shashkiranr.MultiFontView-Android:multifontradiobutton:1.7'
+	}
+```
+
+To Use MultiFont TextClock, add the below dependency
+ 
+```groovy
+	dependencies {
+	       compile 'com.github.shashkiranr.MultiFontView-Android:multifonttextclock:1.7'
 	}
 ```
 
@@ -175,6 +184,21 @@ For `MultiFontCheckBox` the declare-styleable should be named `MultiFontCheckBox
     </declare-styleable>
 ```
 
+For `MultiFontTextClock` the declare-styleable should be named `MultiFontCheckBox` and attribute should be named `typeface_from_list`
+
+```groovy
+<attr name="typeface_from_list">
+        <enum name="BLESSED.otf" value="0" />
+        <enum name="Respective.ttf" value="1" />
+        <enum name="Respective_Slanted.ttf" value="2" />
+        <enum name="Shine.ttf" value="3" />
+        <enum name="SweetSensations.ttf" value="4" />
+    </attr>
+    <declare-styleable name="MultiFontTextClock">
+        <attr name="typeface_from_list" />
+    </declare-styleable>
+```
+
 If you are using `all the views` or `any two views` just one typeface_from_list is enough as shown below
 ```groovy
    <attr name="typeface_from_list">
@@ -205,6 +229,10 @@ If you are using `all the views` or `any two views` just one typeface_from_list 
     </declare-styleable>
 
     <declare-styleable name="MultiFontCheckBox">
+        <attr name="typeface_from_list" />
+    </declare-styleable>
+    
+    <declare-styleable name="MultiFontTextClock">
         <attr name="typeface_from_list" />
     </declare-styleable>
     
