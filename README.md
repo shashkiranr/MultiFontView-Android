@@ -14,7 +14,7 @@
 `MultiFontSwitch`
 `MultiFontRadioButton`
 `MultiFontCheckBox`
-`MultiFontTextClock`
+`MultiFontTextClock[API 17+]`
 
 ![](https://github.com/shashkiranr/MultiFontView-Android/blob/master/Screenshot.png?raw=true)
 
@@ -263,6 +263,10 @@ If you are using `all the views` or `any two views` just one typeface_from_list 
 ![](https://github.com/shashkiranr/MultiFontView-Android/blob/master/Screenshot%20MultiFontRadioButton.png?raw=true)
 
 ![](https://github.com/shashkiranr/MultiFontView-Android/blob/master/Screenshot%20MultiFontCheckBox.png?raw=true)
+
+![](https://github.com/shashkiranr/MultiFontView-Android/blob/master/Screenshot%20MultiFontTextClock.png?raw=true)
+
+
 
 ## ***Thats it !!***
 
