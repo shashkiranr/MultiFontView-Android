@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/multifontedittext/multifontedittext.iml" filepath="$PROJECT_DIR$/multifontedittext/multifontedittext.iml" />
       <module fileurl="file://$PROJECT_DIR$/multifontradiobutton/multifontradiobutton.iml" filepath="$PROJECT_DIR$/multifontradiobutton/multifontradiobutton.iml" />
       <module fileurl="file://$PROJECT_DIR$/multifontswitch/multifontswitch.iml" filepath="$PROJECT_DIR$/multifontswitch/multifontswitch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/multifonttextclock/multifonttextclock.iml" filepath="$PROJECT_DIR$/multifonttextclock/multifonttextclock.iml" />
       <module fileurl="file://$PROJECT_DIR$/multifonttextview/multifonttextview.iml" filepath="$PROJECT_DIR$/multifonttextview/multifonttextview.iml" />
     </modules>
   </component>

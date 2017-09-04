@@ -14,6 +14,7 @@
             <option value="$PROJECT_DIR$/multifontedittext" />
             <option value="$PROJECT_DIR$/multifontradiobutton" />
             <option value="$PROJECT_DIR$/multifontswitch" />
+            <option value="$PROJECT_DIR$/multifonttextclock" />
             <option value="$PROJECT_DIR$/multifonttextview" />
           </set>
         </option>
